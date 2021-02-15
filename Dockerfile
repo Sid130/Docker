@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY /dist/login /usr/share/nginx/html
+COPY /src/app /usr/share/nginx/html
