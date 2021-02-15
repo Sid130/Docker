@@ -1,0 +1,16 @@
+<div *ngIf="fname!=undefined;else  signup">
+<h1>Welcome {{fname}}</h1>
+</div>
+
+<ng-template #signup>
+    <h1>Welcome {{username}}</h1><br>
+    </ng-template>
+
+    
+<div *ngIf="Popultionapidimensions.xparameter.length!=0"  id="divchart">
+<app-graph-dashboard [xparameter]="Popultionapidimensions.xparameter" [yparameter]="Popultionapidimensions.yparameter" [colors]="colors" [chartid]="Popultionapidimensions.id" [label]="Popultionapidimensions.label" ></app-graph-dashboard>
+</div>
+
+<div *ngIf="Temperaturedimensions.xparameter.length!=0" id="divchart" >
+    <app-graph-dashboard [xparameter]="Temperaturedimensions.xparameter" [yparameter]="Temperaturedimensions.yparameter" [colors]="colors" [chartid]="Temperaturedimensions.id" [label]="Temperaturedimensions.label"></app-graph-dashboard>
+</div>

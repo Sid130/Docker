@@ -1,0 +1,20 @@
+
+<div id="divchart" class="container ">
+ 
+    
+    <canvas id="{{chartid}}" width="400" height="400"></canvas>
+    
+    <div class="form-group">
+        <label for="sel1">Select Graph Type</label>
+        <select class="form-control" #selectElem data-id={{chartid}} id="ddl" (change)="setgraphtype(selectElem.value,chartid)">
+          <option *ngFor="let type of graphs" [value]='type' selected="selected">
+              {{type}}
+            </option>
+        </select>
+      </div>
+   
+  </div>
+
+
+  
+    

@@ -1,0 +1,57 @@
+
+h2,h3{
+    
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px !important;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.all{
+    background-image: linear-gradient(to right, #149c1a, #00a073, #009ebd, #0094ea, #1280eb);
+    padding-bottom: 6%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 5px;
+    
+    
+}
+.container{
+    max-width: 55%;
+    background-image: linear-gradient(to right top, #6293ce, #a483d2, #e36aaf, #ff606c, #eb7a12);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    
+
+}
+
+.loginbtn,.signupbtn{
+    display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+
+a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; 
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; 
+  }
+
+
+
+
+

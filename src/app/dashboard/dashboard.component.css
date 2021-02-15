@@ -1,0 +1,11 @@
+h1{
+    margin-left: 40%;
+}
+
+#divchart{
+    display: inline-block !important;
+    width: 430px;
+    height: 430px;
+    margin: 0 auto;
+    margin-left: 10%;
+}
